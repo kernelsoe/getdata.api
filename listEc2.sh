@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#This is the dummy line to test changes difference!
+#This is for branch you know? :D
 
 for region in `aws ec2 describe-regions --output text | cut -f3`
 do
